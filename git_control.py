@@ -34,7 +34,7 @@ except Exception as e:
 
 
 edad = int(input("ingrese su edad: "))
-if edad < 18:
+if edad < 17:
     print("No puedes votar")
 elif edad >= 18 and edad <= 65:
     print("Puedes votar")
